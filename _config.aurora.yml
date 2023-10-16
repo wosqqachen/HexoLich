@@ -17,13 +17,13 @@ site:
   language: cn
   multi_language: false
   logo: 'https://avatars.githubusercontent.com/u/126133433?v=4'
-  avatar: 'https://avatars.githubusercontent.com/u/126133433?v=4'
-  beian:
-    number: '粤ICP备18038099号'
-    link: 'https://vlts.cn/'
-  police_beian:
-    number: '18888888号'
-    link: 'https://vlts.cn/'
+  avatar: 'https://avatars.githubusercontent.com/u/126133433?v=4' 
+  # beian:
+  #   number: '粤ICP备18038099号'
+  #   link: 'https://vlts.cn/'
+  # police_beian:
+  #   number: '18888888号'
+  #   link: 'https://vlts.cn/'
   # Start date of the blog YYY-MM-DD
   # 博客开始运行日期
   started_date: '2023-06-06'
@@ -180,9 +180,9 @@ waline:
 # see http://ibruce.info/2015/04/04/busuanzi/
 busuanzi:
   enable: false
-
+#复制附加
 copy_protection:
-  enable: true
+  enable: false
   author:
     cn: 作者
     en: Author
