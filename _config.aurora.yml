@@ -14,7 +14,7 @@ site:
   nick: Jax AI
   description: '人生不过如此，且行且珍惜，所有的磨难都是生命的财富。'
   link: '/'
-  language: cn
+  language: zh-CN
   multi_language: false
   logo: 'https://avatars.githubusercontent.com/u/126133433?v=4'
   avatar: 'https://avatars.githubusercontent.com/u/126133433?v=4' 
@@ -52,23 +52,38 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: true
-  Tags: true
-  Archives: true
-  Friends: false
-  Links: true
-  Aurora:
-    name: 'Aurora'
-    path: 'https://github.com/Aurora/hexo-theme-Aurora'
-  projects:
-    name: 'Projects'
-    children:
-      obsidian:
-        name: 'Obsidian Theme'
-        path: 'https://github.com/tridiamond/hexo-theme-obsidian'
-  pages-menu:
-    name: 'MessageBoard'
-    path: '/page/message-board'
+  About: false
+  about:
+    name: 'About'
+    type: 'about'
+    path: '/page/about'
+    i18n:
+      en: about
+      zh-CN: 关于
+  Archives: 
+    i18n:
+      en: tags
+      zh-CN: 归档
+  Tags: 
+    i18n:
+      en: tags
+      zh-CN: 标签
+  Links: 
+    i18n:
+      en: tags
+      zh-CN: 友情链接
+  # Aurora:
+  #   name: 'Aurora'
+  #   path: 'https://github.com/Aurora/hexo-theme-Aurora'
+  # projects:
+  #   name: 'Projects'
+  #   children:
+  #     obsidian:
+  #       name: 'Obsidian Theme'
+  #       path: 'https://github.com/tridiamond/hexo-theme-obsidian'
+  # pages-menu:
+  #   name: 'MessageBoard'
+  #   path: '/page/message-board'
 
 #! ---------------------------------------------------------------
 #! Theme Config
@@ -229,4 +244,6 @@ footer_links:
 #! ---------------------------------------------------------------
 shiki:
   enable: true
-  backgroundColor: "#1a1a1a"
+  theme: material-theme-palenight
+  externalTheme:
+  backgroundColor: '#1a1a1a'
