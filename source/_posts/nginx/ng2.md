@@ -33,7 +33,7 @@ server {
 }
 :wq
 nginx -s reload 
-
+ps -ef | grep nginx 就可以看到Nginx进程是否存在了
 ```
 
 **参考文章**
